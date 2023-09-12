@@ -1,17 +1,15 @@
 const input = require('readline-sync');
 
 let weatherInput = input.question("How's the weather today?");
+
 /*  
 Welcome, new coder. 
 Enter your code on line 7 to print 'Hello, World!' 
 to the console (the panel on the right)
 */
+console.log(`Wow! So the weather today is ${weatherInput} today? Neat!`);
+console.log("WOw! So the weather today is " + weatherInput + " today? Neat!");
 
-console.log("It's a me, Mario");
-let name = "Kyle";
-let age = 21;
-let favoriteFruit = "Orange";
-console.log(name, age, favoriteFruit);
 /*  
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
